@@ -1,0 +1,9 @@
+{
+  "name": "OneHP",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/maxe-repo-mods/OneHP",
+  "description": "Forces every player's max health to 1 (configurable). Host only: works even if other players don't have it.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

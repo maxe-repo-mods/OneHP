@@ -27,7 +27,7 @@ Configuration file is generated at `BepInEx/config/maxenterme.OneHP.cfg` on firs
 
 ## Configuration
 
-Settings can also be changed in-game with [REPOConfig](https://thunderstore.io/c/repo/p/nickklmao/REPOConfig/)
+Settings can also be changed in-game with [REPOConfig](https://thunderstore.io/c/repo/p/REPOModding/REPOConfig/)
 and take effect within a second. Turning `Enabled` off stops forcing health; players keep their
 current values until the next level loads their normal max health.
 

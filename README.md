@@ -9,6 +9,7 @@ R.E.P.O. BepInEx mod. Host-side only.
 - Max health and current health of every player are forced to the configured value (default 1)
 - Healing (health packs, truck heal, revive) cannot raise health above the limit
 - Health upgrades are overridden back to the limit
+- Health packs and health upgrades are removed from the shop (configurable)
 - Only the host needs the mod — other players are affected even without it
 
 ## How it works
@@ -28,13 +29,15 @@ Configuration file is generated at `BepInEx/config/maxenterme.OneHP.cfg` on firs
 ## Configuration
 
 Settings can also be changed in-game with [REPOConfig](https://thunderstore.io/c/repo/p/REPOModding/REPOConfig/)
-and take effect within a second. Turning `Enabled` off stops forcing health; players keep their
+and take effect within a second. Shop settings apply from the next shop visit. Turning `Enabled` off stops forcing health and shop removal; players keep their
 current values until the next level loads their normal max health.
 
 | Section | Key | Default | Range | Description |
 |---------|-----|---------|-------|-------------|
 | General | Enabled | true | - | Force max health on every player |
 | General | MaxHealth | 1 | 1-100 | Max health forced on every player |
+| Shop | RemoveHealthPacks | true | - | Do not stock health packs in the shop |
+| Shop | RemoveHealthUpgrades | true | - | Do not stock health upgrades in the shop |
 
 ## Build
 
